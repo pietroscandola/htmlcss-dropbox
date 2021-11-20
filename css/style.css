@@ -321,3 +321,36 @@ h5 {
 
 
 /* Operazioni */
+
+.row {
+    margin: 50px 0;
+    height: 100%;
+}
+
+.row1 {
+    margin: 100px 0;
+    height: 100%;
+}
+
+.album {
+    width: 30%;
+    margin-right: 20px;
+    float: left;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+}
+
+.album>h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.album>p {
+    font-size: 12px;
+}
+
+
+/* Imprese */
