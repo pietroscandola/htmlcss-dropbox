@@ -354,3 +354,153 @@ h5 {
 
 
 /* Imprese */
+
+.enterprise {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.small>h2 {
+    padding-bottom: 20px;
+}
+
+
+/* Center-Square */
+
+.center-square {
+    width: calc(40% - 60px);
+    float: left;
+    margin: 20px 30px;
+}
+
+.design {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.center-square>p {
+    font-size: 12px;
+}
+
+
+/* Left-Square*/
+
+.left-square {
+    width: 30%;
+    float: left;
+}
+
+.square-lightgreen {
+    width: 50%;
+    padding-top: 50%;
+    background-color: #a2d39c;
+    float: left;
+}
+
+.square-darkviolet {
+    width: 50%;
+    padding-top: 50%;
+    background-color: #61082b;
+    float: left;
+}
+
+.square-lightblue {
+    width: 50%;
+    padding-top: 50%;
+    background-color: #0093ce;
+    float: left;
+}
+
+.square-red {
+    width: 50%;
+    padding-top: 50%;
+    background-color: #ff1c1c;
+    float: left;
+}
+
+
+/* Right-Square*/
+
+.right-square {
+    width: 30%;
+    float: right;
+}
+
+.square-darkred {
+    width: 50%;
+    padding-top: 50%;
+    background-color: #d5001f;
+    float: left;
+}
+
+.square-lightgray {
+    width: 50%;
+    padding-top: 50%;
+    background-color: #b4d0e7;
+    float: left;
+}
+
+.square-blue {
+    width: 50%;
+    padding-top: 50%;
+    background-color: #0d2481;
+    float: left;
+}
+
+.square-yellow {
+    width: 50%;
+    padding-top: 50%;
+    background-color: #ffd830;
+    float: left;
+}
+
+
+/* Dropbox Business */
+
+.free {
+    height: 300px;
+    background-color: #b4d0e7;
+}
+
+.small .float-left>h2 {
+    float: left;
+    line-height: 300px;
+}
+
+.small .float-right>button {
+    float: right;
+    margin-top: 125px;
+}
+
+.float-right>button {
+    background-color: white;
+    border: 1px solid #6b6b6b;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.float-right button>a {
+    text-decoration: none;
+    display: block;
+    color: #6b6b6b;
+    ;
+}
+
+
+/* Question */
+
+.question {
+    margin-top: 100px;
+}
+
+.testo {
+    float: left;
+    font-weight: bolder;
+}
+
+.angle-down {
+    float: right;
+}
