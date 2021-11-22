@@ -374,7 +374,7 @@ h5 {
 
 .square-lightgreen {
     width: calc(50% - 10px);
-    padding-top: calc(50% - 20px);
+    height: 190px;
     background-color: #a2d39c;
     float: left;
     border: 10px solid transparent;
@@ -388,13 +388,17 @@ h5 {
 
 #designit {
     background-image: url('../img/designit.svg');
+    background-size: 80%;
     height: 100%;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: white;
 }
 
 .square-darkviolet {
     width: calc(50% - 10px);
-    padding-top: calc(50% - 20px);
+    height: 190px;
     background-color: #61082b;
     float: left;
     border: 10px solid transparent;
@@ -406,9 +410,18 @@ h5 {
     cursor: pointer;
 }
 
+#asu {
+    background-image: url('../img/arizona_state_university.svg');
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .square-lightblue {
     width: calc(50% - 10px);
-    padding-top: calc(50% - 20px);
+    height: 190px;
     background-color: #0093ce;
     float: left;
     border: 10px solid transparent;
@@ -420,9 +433,18 @@ h5 {
     cursor: pointer;
 }
 
+#uf {
+    background-image: url('../img/university_of_florida.svg');
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .square-red {
     width: calc(50% - 10px);
-    padding-top: calc(50% - 20px);
+    height: 190px;
     background-color: #ff1c1c;
     float: left;
     border: 10px solid transparent;
@@ -432,6 +454,15 @@ h5 {
 .square-red:hover {
     border: 10px solid #d0e9cd;
     cursor: pointer;
+}
+
+#topps {
+    background-image: url('../img/topps.svg');
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -444,7 +475,7 @@ h5 {
 
 .square-darkred {
     width: calc(50% - 10px);
-    padding-top: calc(50% - 20px);
+    height: 190px;
     background-color: #d5001f;
     float: left;
     border: 10px solid transparent;
@@ -456,9 +487,18 @@ h5 {
     cursor: pointer;
 }
 
+#bicycle {
+    background-image: url('../img/world_bicycle_relief.svg');
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .square-lightgray {
     width: calc(50% - 10px);
-    padding-top: calc(50% - 20px);
+    height: 190px;
     background-color: #b4d0e7;
     float: left;
     border: 10px solid transparent;
@@ -470,9 +510,18 @@ h5 {
     cursor: pointer;
 }
 
+#hearst {
+    background-image: url('../img/hearst_corp.svg');
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .square-blue {
     width: calc(50% - 10px);
-    padding-top: calc(50% - 20px);
+    height: 190px;
     background-color: #0d2481;
     float: left;
     border: 10px solid transparent;
@@ -484,9 +533,18 @@ h5 {
     cursor: pointer;
 }
 
+#lonely {
+    background-image: url('../img/lonely_planet.svg');
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .square-yellow {
     width: calc(50% - 10px);
-    padding-top: calc(50% - 20px);
+    height: 190px;
     background-color: #ffd830;
     float: left;
     border: 10px solid transparent;
@@ -496,6 +554,15 @@ h5 {
 .square-yellow:hover {
     border: 10px solid #d0e9cd;
     cursor: pointer;
+}
+
+#clear {
+    background-image: url('../img/clear_channel.svg');
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
