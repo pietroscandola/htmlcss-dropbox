@@ -23,19 +23,29 @@ body {
     display: inline-block;
 }
 
-.push {
-    background-color: #0061ff;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-}
-
 .up-down-20px {
     margin: 20px 0;
+}
+
+.btn-blue {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    padding: 10px 20px;
+}
+
+.btn-blue:hover {
+    filter: brightness(1.5);
+}
+
+.btn-gray {
+    display: inline;
+    text-decoration: none;
+    border: 1px solid gray;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
 }
 
 
@@ -45,6 +55,8 @@ body {
     width: 100%;
     height: 70px;
     background-color: white;
+    position: fixed;
+    box-shadow: 0 1px 2px #d0d0d0;
 }
 
 .top-left-header {
@@ -78,22 +90,6 @@ body {
     margin: 0 20px;
 }
 
-#login {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: #0061ff;
-    padding: 10px 20px;
-}
-
-#login:hover {
-    color: lightblue;
-}
-
-button>#login {
-    display: inline-block;
-}
-
 .navigazione {
     display: inline-block;
 }
@@ -109,12 +105,6 @@ button>#login {
 
 .title {
     font-size: 3.5em;
-}
-
-.prova {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
 }
 
 .text-area {
@@ -136,10 +126,6 @@ button>#login {
 
 #arrow {
     font-size: 3em;
-}
-
-.prova:hover {
-    color: lightblue;
 }
 
 
@@ -256,9 +242,8 @@ label {
 
 .team3 {
     width: 100%;
-    margin: 30px;
+    margin: 30px 0;
     border: 1px solid #e3e3e5;
-    ;
 }
 
 .col1 {
@@ -286,32 +271,9 @@ h5 {
 
 .partner {
     margin: 90px 0;
-    display: flex;
 }
 
-#friend {
-    height: 450px;
-    width: 450px;
-    object-fit: contain;
-    flex: 1;
-}
-
-.botton-partner {
-    background-color: white;
-    border: 1px solid #6b6b6b;
-    color: #6b6b6b;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#bottone {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-}
+#friend {}
 
 .testo {
     flex: 1;
@@ -402,31 +364,59 @@ h5 {
 }
 
 .square-lightgreen {
-    width: 50%;
-    padding-top: 50%;
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 20px);
     background-color: #a2d39c;
     float: left;
+    border: 10px solid transparent;
+    transition: border 1s;
+}
+
+.square-lightgreen:hover {
+    border: 10px solid #d0e9cd;
+    cursor: pointer;
 }
 
 .square-darkviolet {
-    width: 50%;
-    padding-top: 50%;
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 20px);
     background-color: #61082b;
     float: left;
+    border: 10px solid transparent;
+    transition: border 1s;
+}
+
+.square-darkviolet:hover {
+    border: 10px solid #d0e9cd;
+    cursor: pointer;
 }
 
 .square-lightblue {
-    width: 50%;
-    padding-top: 50%;
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 20px);
     background-color: #0093ce;
     float: left;
+    border: 10px solid transparent;
+    transition: border 1s;
+}
+
+.square-lightblue:hover {
+    border: 10px solid #d0e9cd;
+    cursor: pointer;
 }
 
 .square-red {
-    width: 50%;
-    padding-top: 50%;
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 20px);
     background-color: #ff1c1c;
     float: left;
+    border: 10px solid transparent;
+    transition: border 1s;
+}
+
+.square-red:hover {
+    border: 10px solid #d0e9cd;
+    cursor: pointer;
 }
 
 
@@ -438,31 +428,59 @@ h5 {
 }
 
 .square-darkred {
-    width: 50%;
-    padding-top: 50%;
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 20px);
     background-color: #d5001f;
     float: left;
+    border: 10px solid transparent;
+    transition: border 1s;
+}
+
+.square-darkred:hover {
+    border: 10px solid #d0e9cd;
+    cursor: pointer;
 }
 
 .square-lightgray {
-    width: 50%;
-    padding-top: 50%;
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 20px);
     background-color: #b4d0e7;
     float: left;
+    border: 10px solid transparent;
+    transition: border 1s;
+}
+
+.square-lightgray:hover {
+    border: 10px solid #d0e9cd;
+    cursor: pointer;
 }
 
 .square-blue {
-    width: 50%;
-    padding-top: 50%;
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 20px);
     background-color: #0d2481;
     float: left;
+    border: 10px solid transparent;
+    transition: border 1s;
+}
+
+.square-blue:hover {
+    border: 10px solid #d0e9cd;
+    cursor: pointer;
 }
 
 .square-yellow {
-    width: 50%;
-    padding-top: 50%;
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 20px);
     background-color: #ffd830;
     float: left;
+    border: 10px solid transparent;
+    transition: border 1s;
+}
+
+.square-yellow:hover {
+    border: 10px solid #d0e9cd;
+    cursor: pointer;
 }
 
 
@@ -473,30 +491,16 @@ h5 {
     background-color: #b4d0e7;
 }
 
-.small .float-left>h2 {
+.float-left {
     float: left;
+    height: 300px;
     line-height: 300px;
 }
 
-.small .float-right>button {
+.float-right {
     float: right;
-    margin-top: 125px;
-}
-
-.float-right>button {
-    background-color: white;
-    border: 1px solid #6b6b6b;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.float-right button>a {
-    text-decoration: none;
-    display: block;
-    color: #6b6b6b;
-    ;
+    height: 300px;
+    line-height: 300px;
 }
 
 
