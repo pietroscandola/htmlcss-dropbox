@@ -394,6 +394,7 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-image: white;
+    filter: invert(100%);
 }
 
 .square-darkviolet {
@@ -417,6 +418,7 @@ h5 {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    filter: invert(100%);
 }
 
 .square-lightblue {
@@ -440,6 +442,7 @@ h5 {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    filter: invert(100%);
 }
 
 .square-red {
@@ -463,6 +466,7 @@ h5 {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    filter: invert(100%);
 }
 
 
@@ -494,6 +498,7 @@ h5 {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    filter: invert(100%);
 }
 
 .square-lightgray {
@@ -517,6 +522,7 @@ h5 {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    filter: invert(100%);
 }
 
 .square-blue {
@@ -540,6 +546,7 @@ h5 {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    filter: invert(100%);
 }
 
 .square-yellow {
@@ -563,6 +570,7 @@ h5 {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    filter: invert(100%);
 }
 
 
@@ -624,14 +632,14 @@ footer {
 }
 
 .contenitore-capitoli {
-    display: flex;
     color: white;
     padding-top: 50px;
     margin-bottom: 50px;
 }
 
 .capitolo {
-    flex: 1;
+    float: left;
+    width: calc(25% - 50px)
 }
 
 .capitolo h3 {
@@ -653,6 +661,5 @@ footer {
 
 .language span {
     color: white;
-    padding-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
