@@ -28,7 +28,7 @@ body {
 }
 
 .btn-blue {
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     color: white;
     background-color: #0061ff;
@@ -60,7 +60,7 @@ body {
 }
 
 .top-left-header {
-    display: inline-block;
+    float: left;
     width: calc(50% - 10px);
     height: 100%;
     line-height: 70px;
@@ -68,10 +68,12 @@ body {
 }
 
 .top-right-header {
-    display: inline-block;
+    float: right;
     width: calc(50% - 10px);
-    text-align: right;
+    height: 100%;
+    line-height: 70px;
     font-size: 12px;
+    text-align: right;
 }
 
 #logo {
@@ -88,6 +90,11 @@ body {
 .sezioni>li {
     display: inline-block;
     margin: 0 20px;
+    border: none;
+}
+
+li:hover {
+    border-bottom: 2px solid black;
 }
 
 .navigazione {
@@ -126,6 +133,22 @@ body {
 
 #arrow {
     font-size: 3em;
+}
+
+.bounce {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 
@@ -661,5 +684,9 @@ footer {
 
 .language span {
     color: white;
-    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+.language {
+    padding-bottom: 50px;
 }
