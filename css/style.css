@@ -273,7 +273,11 @@ h5 {
     margin: 90px 0;
 }
 
-#friend {}
+#friends {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
 
 .testo {
     flex: 1;
@@ -506,17 +510,31 @@ h5 {
 
 /* Question */
 
-.question {
+.questions {
     margin-top: 100px;
 }
 
-.testo {
-    float: left;
+.riga {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 70px;
+}
+
+.question {
+    display: inline-block;
+    width: calc(70% - 10px);
     font-weight: bolder;
+    font-size: 12px;
+    height: 70px;
+    line-height: 70px;
 }
 
 .angle-down {
-    float: right;
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    height: 100%;
+    line-height: 100%;
 }
 
 
