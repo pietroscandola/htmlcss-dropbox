@@ -504,3 +504,45 @@ h5 {
 .angle-down {
     float: right;
 }
+
+
+/* Footer */
+
+footer {
+    margin-top: 150px;
+    background-color: black;
+}
+
+.contenitore-capitoli {
+    display: flex;
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.capitolo {
+    flex: 1;
+}
+
+.capitolo h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.capitolo nav ul li {
+    list-style-type: none;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.line {
+    width: 50px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+}
+
+.language span {
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
