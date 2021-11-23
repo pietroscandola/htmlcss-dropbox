@@ -688,7 +688,7 @@ h5 {
 .riga {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    height: 70px;
+    cursor: pointer;
 }
 
 .question {
@@ -706,6 +706,16 @@ h5 {
     text-align: right;
     height: 100%;
     line-height: 100%;
+}
+
+.dropdown {
+    display: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.riga:hover .dropdown {
+    display: block;
 }
 
 
